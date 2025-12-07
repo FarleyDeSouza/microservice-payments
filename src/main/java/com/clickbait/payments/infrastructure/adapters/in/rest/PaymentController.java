@@ -24,7 +24,6 @@ import java.net.URI;
 @RestController
 @RequestMapping("/api/v1/payments")
 @RequiredArgsConstructor
-@ControllerAdvice
 @Tag(name = "Payment API", description = "Endpoints for payment processing")
 public class PaymentController {
 
